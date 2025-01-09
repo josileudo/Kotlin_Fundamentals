@@ -15,7 +15,6 @@ fun main() {
 
     // map
     val map = mapOf<Int, String>(Pair(1, "kotlin"), 1 to "Kotlin 1", 2 to "kotlin 2")
-    println(map)
 
     println(map.keys)
     println(map.size)
@@ -24,4 +23,15 @@ fun main() {
 
     val mapMutable = mutableMapOf(1 to "kotlin", "hi" to "petter", 1 to 1..10)
     println(mapMutable)
+
+    for(i in 1..3) {
+        println(i)
+    }
+
+    var soma = 0
+    repeat(5) { i ->
+        print(i)
+        soma += i
+    }
+    println(soma)
 }
