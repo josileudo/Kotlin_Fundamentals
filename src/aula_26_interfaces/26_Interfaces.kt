@@ -31,6 +31,7 @@ class PdfPrinter: Printer, TextConverter {
         println("Convertendo texto '$text' para o tipo $printerType")
         return text
     }
+
 }
 
 fun main() {
